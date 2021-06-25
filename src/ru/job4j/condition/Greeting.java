@@ -6,6 +6,6 @@ String idea = "I like Java!";
     idea +=  " But I am a newbie ";
         int year = 2021;
             idea += year;
-            System.out.println(idea );
+            System.out.println(idea);
         }
 }
