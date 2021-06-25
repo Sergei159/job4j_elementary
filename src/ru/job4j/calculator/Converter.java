@@ -19,8 +19,8 @@ public class Converter {
 
         int dollarIn = 1000;
         int dollarExpected = 13;
-        int dollaOut = Converter.rubleToDollar(dollarIn);
-        boolean dollarPassed = dollarExpected == dollaOut;
+        int dollarOut = Converter.rubleToDollar(dollarIn);
+        boolean dollarPassed = dollarExpected == dollarOut;
         System.out.println("1000 rubles are 13 $ . Test result : " + dollarPassed);
     }
 }
