@@ -5,7 +5,6 @@ import org.junit.Test;
 
 public class ConverterTest {
 
-    @SuppressWarnings("checkstyle:WhitespaceAfter")
     @Test
     public void whenConvert1000RblThen11Euro() {
 
