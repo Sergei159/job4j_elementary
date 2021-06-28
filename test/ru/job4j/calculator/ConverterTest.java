@@ -6,7 +6,6 @@ public class ConverterTest {
 
     @Test
     public void whenConvert1000RblThen11Euro() {
-
         int euroIn = 1000;
         int euroExpected = 11;
         int euroOut = Converter.rubleToEuro(euroIn);
