@@ -28,6 +28,7 @@ switch (day) {
         break;
     default :
         name = "Ошибка";
+        break;
        }
 
        return name;
