@@ -6,7 +6,7 @@ import  org.junit.Assert;
 public class PointTest {
 
     @Test
-    public void when_0_0_And_2_0_Then2() {
+    public void whenP1IsZeroZeroAndP2IsTwoZeroThen2() {
         int x1 = 0;
         int y1 = 0;
         int x2 = 2;
@@ -17,7 +17,7 @@ public class PointTest {
     }
 
     @Test
-    public void when_0_0_And_10_5_Then11_18() {
+    public void whenP1IsZeroZeroAndP2IsTenFiveThen11And18hundredth() {
         int x1 = 0;
         int y1 = 0;
         int x2 = 10;
@@ -28,7 +28,7 @@ public class PointTest {
     }
 
     @Test
-    public void when_5_5_And_10_5_Then5() {
+    public void whenP1IsFiveFiveAndP2IsTenFiveThen5() {
         int x1 = 5;
         int y1 = 5;
         int x2 = 10;
