@@ -6,7 +6,7 @@ import org.junit.Assert;
 public class SqAreaTest {
 
     @Test
-    public void When_p4_k1_Then1() {
+    public void WhenP4AndK1Then1() {
         int p = 4;
         double  k = 1;
         double out = SqArea.square(p, k);
@@ -15,7 +15,7 @@ public class SqAreaTest {
     }
 
     @Test
-    public void When_p6_k2_Then2() {
+    public void WhenP6AndK2Then2() {
         int p = 6;
         double  k = 2;
         double out = SqArea.square(p, k);
@@ -24,7 +24,7 @@ public class SqAreaTest {
     }
 
     @Test
-    public void When_p1_k2_Then0_055() {
+    public void WhenP1AndK2Then55Thousandth() {
         int p = 1;
         double  k = 2;
         double out = SqArea.square(p, k);
