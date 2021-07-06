@@ -15,8 +15,6 @@ public static void main(String[] args) {
 
         double result3 = SqArea.square(1, 2);
         System.out.println(" p = 1, k = 2, s = 0.055, real = " + result3);
-
-
     }
 
 }
